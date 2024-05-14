@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b8d9834a7c5c4d4d9b898c0e3e70ac5f" Name="Diagram1" ZoomLevel="10">
+        <EntityTypeShape EntityType="ClimateMonitoringDBModel.Alert" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClimateMonitoringDBModel.EnvironmentalParameter" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClimateMonitoringDBModel.HistoricalData" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClimateMonitoringDBModel.sysdiagram" Width="1.5" PointX="5.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="ClimateMonitoringDBModel.User" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="ClimateMonitoringDBModel.FK__Alerts__Paramete__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="ClimateMonitoringDBModel.FK__Alerts__UserID__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="ClimateMonitoringDBModel.FK__Historica__Param__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="ClimateMonitoringDBModel.FK__Historica__UserI__286302EC" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
